@@ -18,6 +18,7 @@ app.use(express.static(path.join(__dirname, 'static')));
 const routes = [
   { path: '/', file: 'index.html' },
   { path: '/news', file: 'int.html' },
+  { path: '/education', file: 'apps.html' },
   { path: '/go', file: 'go.html' },
   { path: '/loading', file: 'loading.html' },
 ];
