@@ -1234,7 +1234,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Rooftop Snipers",
-    link: "https://html5.gamedistribution.com/rvvASMiM/c3a70ae98547407a92ebedca8b79fdfa/index.html",
+    link: "https://games.crazygames.com/en_US/rooftop-snipers/index.html",
     image: "/images/icons/rooftop.webp",
     categories: ['all'],
     error: false
