@@ -27,14 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Roblox (TRY MULTIPLE TIMES)",
       link: "https://nowgg.nl/play/roblox-corporation/5349/roblox",
       image: "/images/icons/IMG_0113.png",
-      categories: ['all'],
+      categories: ['all', '2P'],
       error: false
     },
      {
       name: "NowGG (Official Beta)",
       link: "https://nowgg.nl/apps/akseno/6283/lokicraft.html",
       image: "/images/icons/IMG_0052.png",
-      categories: ['all'],
+      categories: ['all', '2P'],
       error: false
     },
 
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Cod Mobile (Official Beta)",
       link: "https://nowgg.nl/apps/activision-publishing-inc/7935/call-of-duty.html",
       image: "/images/icons/IMG_0052.png",
-      categories: ['all'],
+      categories: ['all', '2P'],
       error: false
     },
     
