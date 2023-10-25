@@ -614,7 +614,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Basket Random",
-    link: "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://64345986-62434566.preview.editmysite.com/uploads/9/9/0/8/139890129/custom_themes/104868751615748392/files/basran.xml",
+    link: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://64345986-62434566.preview.editmysite.com/uploads/9/9/0/8/139890129/custom_themes/104868751615748392/files/basran.xml",
     image: "/images/icons/br.webp",
     categories: ['all'],
     error: false
