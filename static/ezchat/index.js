@@ -352,4 +352,7 @@ function addMessage(messageText) {
     messageDiv.appendChild(timestamp);
     messageContainer.appendChild(messageDiv);
 }
+// Example of calling the function when a new message is sent
+const newMessage = "Hello, this is a new message!";
+addMessage(newMessage);
 
