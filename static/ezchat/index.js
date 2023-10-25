@@ -1,4 +1,4 @@
-﻿// We enclose this in window.onload.
+// We enclose this in window.onload.
 // So we don't have ridiculous errors.
 window.onload = function () {
     // Your web app's Firebase configuration
@@ -332,5 +332,24 @@ window.onload = function () {
     if (app.get_name() != null) {
         app.chat()
     }
+}
+function addMessage(messageText) {
+    const messageContainer = document.getElementById('message-container');
+    const messageDiv = document.createElement('div');
+    messageDiv.classList.add('message');
+    
+    const messageContent = document.createElement('p');
+    messageContent.classList.add('message-content');
+    messageContent.textContent = messageText;
+
+    const timestamp = document.createElement('p');
+    timestamp.classList.add('timestamp');
+    const now = new Date();
+    const timeString = now.toLocaleTimeString();
+    timestamp.textContent = timeString;
+
+    messageDiv.appendChild(messageContent);
+    messageDiv.appendChild(timestamp);
+    messageContainer.appendChild(messageDiv);
 }
 
