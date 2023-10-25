@@ -1258,7 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Rooftop Snipers",
-    link: "https://www.twoplayergames.org/gameframe/rooftop-snipers",
+    link: "https://files.twoplayergames.org/files/games/other/Rooftop_Snipers/index.html",
     image: "/images/icons/rooftop.webp",
     categories: ['all'],
     error: false
