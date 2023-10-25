@@ -38,6 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
 
+    {
+      name: "NowGG (TEST 2)",
+      link: "https://nowgg.nl/",
+      image: "/images/icons/IMG_0052.png",
+      categories: ['all'],
+      error: false
+    },
+
     
     {
       name: "Gladihoppers",
