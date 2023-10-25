@@ -891,7 +891,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         name: "Idle Breakout",
-        link: "https://interstellarnetwork.github.io/Interstellar-Assets/play/idle-breakout/index.html",
+        link: "https://idle-breakout.github.io/games/idle-breakout/index.html",
         image: "/images/icons/idle.webp",
         categories: ["all"],
         error: false
