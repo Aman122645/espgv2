@@ -30,6 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ['all'],
       error: false
     },
+     {
+      name: "NowGG (TEST)",
+      link: "https://nowgg.nl/play/roblox-corporation/5349/roblox",
+      image: "/images/icons/IMG_0113.png",
+      categories: ['all'],
+      error: false
+    },
     {
       name: "Gladihoppers",
       link: "https://bonbang.github.io/store99/gladihoppers/index.html",
