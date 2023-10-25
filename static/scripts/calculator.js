@@ -1258,7 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Rooftop Snipers",
-    link: "https://html5.gamedistribution.com/rvvASMiM/c3a70ae98547407a92ebedca8b79fdfa/index.html",
+    link: "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@f8de953e5d955baef80e3994a1105d74ad76315b/Rooftop-Snipers.xml",
     image: "/images/icons/rooftop.webp",
     categories: ['all'],
     error: false
