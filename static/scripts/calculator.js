@@ -1258,14 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Rooftop Snipers",
-    link: "https://ubg365.github.io/rooftop-snipers/",
-    image: "/images/icons/rooftop.webp",
-    categories: ['all'],
-    error: false
-  },
-  {
-    name: "Rooftop Snipers (SERVER 2)",
-    link: "https://game272261.konggames.com/gamez/0027/2261/live/index.html",
+    link: "https://www.twoplayergames.org/gameframe/rooftop-snipers",
     image: "/images/icons/rooftop.webp",
     categories: ['all'],
     error: false
