@@ -21,6 +21,7 @@ const routes = [
   { path: '/education', file: 'apps.html' },
   { path: '/go', file: 'go.html' },
   { path: '/loading', file: 'loading.html' },
+  { path: '/oldgms', file: '/games/index.html' },
 ];
 
 app.get('/edu/*', cors({ origin: false }), async (req, res, next) => {
