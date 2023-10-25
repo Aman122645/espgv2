@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     
     {
-      name: "Roblox (BUGGY)",
+      name: "Roblox (TRY MULTIPLE TIMES)",
       link: "https://nowgg.nl/play/roblox-corporation/5349/roblox",
       image: "/images/icons/IMG_0113.png",
       categories: ['all'],
