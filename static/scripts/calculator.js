@@ -1258,7 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Rooftop Snipers",
-    link: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@f8de953e5d955baef80e3994a1105d74ad76315b/Rooftop-Snipers.xml",
+    link: "https://ubg365.github.io/rooftop-snipers/",
     image: "/images/icons/rooftop.webp",
     categories: ['all'],
     error: false
