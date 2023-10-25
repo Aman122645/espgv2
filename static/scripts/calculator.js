@@ -1264,6 +1264,13 @@ document.addEventListener('DOMContentLoaded', () => {
     error: false
   },
   {
+    name: "Rooftop Snipers (SERVER 2)",
+    link: "https://game272261.konggames.com/gamez/0027/2261/live/index.html",
+    image: "/images/icons/rooftop.webp",
+    categories: ['all'],
+    error: false
+  },
+  {
     name: "Sand Spiel",
     link: "https://sandspiel.club/",
     image: "/images/icons/sand.webp",
