@@ -31,16 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
      {
-      name: "NowGG (TEST)",
+      name: "NowGG (Official Beta)",
       link: "https://nowgg.nl/apps/akseno/6283/lokicraft.html",
-      image: "/images/icons/IMG_0052.png",
-      categories: ['all'],
-      error: false
-    },
-
-    {
-      name: "NowGG (TEST 2)",
-      link: "https://nowgg.nl/",
       image: "/images/icons/IMG_0052.png",
       categories: ['all'],
       error: false
