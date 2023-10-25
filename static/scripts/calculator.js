@@ -38,6 +38,13 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
 
+    {
+      name: "Cod Mobile (Official Beta)",
+      link: "https://nowgg.nl/apps/activision-publishing-inc/7935/call-of-duty.html",
+      image: "/images/icons/IMG_0052.png",
+      categories: ['all'],
+      error: false
+    },
     
     {
       name: "Gladihoppers",
