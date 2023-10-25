@@ -37,6 +37,16 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ['all'],
       error: false
     },
+    
+    {
+      name: "NowGG (TEST 2)",
+      link: "https://nowgg.nl/games.html",
+      image: "/images/icons/placeholder.jpg",
+      categories: ["all"],
+      error: false
+    },  
+
+    
     {
       name: "Gladihoppers",
       link: "https://bonbang.github.io/store99/gladihoppers/index.html",
