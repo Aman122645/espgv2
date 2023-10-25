@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
      {
       name: "NowGG (TEST)",
-      link: "https://nowgg.nl/play/roblox-corporation/5349/roblox",
+      link: "https://nowgg.co/",
       image: "/images/icons/IMG_0052.png",
       categories: ['all'],
       error: false
