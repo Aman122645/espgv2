@@ -1,0 +1,77 @@
+<html lang="en">
+    <head>
+        <meta name="keywords" content="Computer Science, Technology, Photography, Nature, Tech Support, Tech Help, Local Tech Support">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/images/ico.ico" type="image/x-icon">
+        <link rel="stylesheet" href="storage/css/index.css">
+        <title>Home | ESPG</title>
+
+        <meta name="description" content="ESPG; an open source math and science helper">
+        <meta property="og:site_name" content="ESPG">
+        <meta property="og:title" content="ESPG">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="ESPG; an open source math and science helper">
+  </head>
+  <body onload="AB()">
+  <body>
+      <div class="cursor"></div>
+      <div class="content-side">
+          <h1 class="typewriter"><span id="cursor"></span></h1>
+          <h2></h2>
+          <br>
+          <a class="gamesbutton" href="donate/index.html">Donate Pls</a>
+          <br>
+          <a class="gamesbutton" href="int.html">games</a>
+          <br>
+           <a class="gamesbutton" href="/education">appsv2</a>
+          <br>
+          <a class="gamesbutton" href="ezchat/index.html">chat</a>
+          <br>
+          <a class="gamesbutton" href="https://mado-two.vercel.app/" target="_blank">call</a>
+          <br>
+          <a class="gamesbutton" href="ezwatch/index.html">watch</a>
+          <br>
+          <a class="gamesbutton" href="ezgpt/index.html">gptclone</a>
+          <br>
+          <a class="gamesbutton" href="bookmarkl3ts/index.html">bookmarklets</a>
+          <br>
+
+          <p class="linkp"><a href="cloak.html">cloak tab</a> • <a href="updatelog.html">update log</a> • <a href="https://discord.gg/R8DdqMvbSg" target="_blank">discord</a></p>
+          
+          <br>
+          <a href="https://github.com/a456pur" target="_blank" style="text-decoration: none;"> Website created by me, Kegan, and cofounder, Aiden. 
+          Huge Credit to the orgianal owner of this site, a456pur, for the base code!</p>
+          
+      </div>
+
+      <script>
+        const text = "ESPG";
+        const typingDelay = 700; 
+        const initialDelay = 0; 
+        const cursor = document.getElementById("cursor");
+        const h1 = document.querySelector(".typewriter");
+
+        function type() {
+        setTimeout(() => {
+            for (let i = 0; i < text.length; i++) {
+            setTimeout(() => {
+                h1.textContent += text[i];
+                if (i === text.length - 1) {
+                cursor.style.display = "none"; 
+                }
+            }, i * typingDelay);
+            }
+        }, initialDelay);
+        }
+
+        type();
+      </script>
+
+
+
+      <script src="storage/js/cursor.js"></script>
+      <script src="storage/js/cloak.js"></script>
+      <script src="scripts/index.js"></script>
+  </body>
+</html>
