@@ -172,7 +172,7 @@ window.onload = function () {
                         var timeString = hours + ":" + (minutes < 10 ? "0" : "") + minutes;
 
                         // Combine the user's message and the current time
-                        var messageWithTime = `${parent.get_name()} [${timeString}]: ${chat_input.value}`;
+                        var messageWithTime = `[${timeString}]: ${chat_input.value}`;
 
                         // Enable the loading circle in the 'chat_content_container'
                         parent.create_load('chat_content_container');
