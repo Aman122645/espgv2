@@ -169,7 +169,9 @@ window.onload = function () {
                         var currentTime = new Date();
                         var hours = currentTime.getHours();
                         var minutes = currentTime.getMinutes();
-                        var timeString = hours + ":" + (minutes < 10 ? "0" : "") + minutes;
+                        var ampm = hours >= 12 ? 'PM' : 'AM';
+                        hours = hours % 12 || 12; // Convert 0 to 12
+                        var timeString = hours + ":" + (minutes < 10 ? "0" : "") + minutes + " " + ampm;
 
                         // Combine the user's message and the current time
                         var messageWithTime = `[${timeString}]: ${chat_input.value}`;
