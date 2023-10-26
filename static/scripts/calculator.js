@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
      {
       name: "NowGG (Official Beta)",
-      link: "https://nowgg.nl/apps/akseno/6283/lokicraft.html",
+      link: "https://nowgg.nl/",
       image: "/images/icons/IMG_0052.png",
       categories: ['all', '2P'],
       error: false
