@@ -656,7 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Bitlife",
-    link: "https://outred.org/g/assets/bitlife/index.html",
+    link: "https://purepro4561.github.io/Bitlife/",
     image: "/images/icons/bitlife.webp",
     categories: ['all'],
     error: false
