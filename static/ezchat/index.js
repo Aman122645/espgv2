@@ -147,6 +147,8 @@ window.onload = function () {
             chat_input_send.setAttribute('disabled', true)
             chat_input_send.innerHTML = `<i class="fa fa-paper-plane"></i>`
 
+            
+            
             var chat_input = document.createElement('input')
             chat_input.setAttribute('id', 'chat_input')
             // Only a max message length of 1000
@@ -158,19 +160,31 @@ window.onload = function () {
                     chat_input_send.removeAttribute('disabled')
                     chat_input_send.classList.add('enabled')
                     chat_input_send.onclick = function () {
-                        chat_input_send.setAttribute('disabled', true)
-                        chat_input_send.classList.remove('enabled')
+                        chat_input_send.setAttribute('disabled', true);
+                        chat_input_send.classList.remove('enabled');
                         if (chat_input.value.length <= 0) {
-                            return
+                            return;
                         }
+                        // Get the current time
+                        var currentTime = new Date();
+                        var hours = currentTime.getHours();
+                        var minutes = currentTime.getMinutes();
+                        var timeString = hours + ":" + (minutes < 10 ? "0" : "") + minutes;
+
+                        // Combine the user's message and the current time
+                        var messageWithTime = `${parent.get_name()} [${timeString}]: ${chat_input.value}`;
+
                         // Enable the loading circle in the 'chat_content_container'
-                        parent.create_load('chat_content_container')
-                        // Send the message. Pass in the chat_input.value
-                        parent.send_message(chat_input.value)
-                        // Clear the chat input box
-                        chat_input.value = ''
-                        // Focus on the input just after
-                        chat_input.focus()
+                        parent.create_load('chat_content_container');
+    
+                        // Send the message. Pass in the messageWithTime
+                        parent.send_message(messageWithTime);
+            
+    // Clear the chat input box
+                        chat_input.value = '';
+    
+    // Focus on the input just after
+                        chat_input.focus();
                     }
                 } else {
                     chat_input_send.classList.remove('enabled')
