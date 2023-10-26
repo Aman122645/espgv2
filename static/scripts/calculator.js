@@ -656,7 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Bitlife",
-    link: "https://xlegends.github.io/bitlife/",
+    link: "https://ubg365.github.io/bitlife-life-simulator/play.html",
     image: "/images/icons/bitlife.webp",
     categories: ['all'],
     error: false
