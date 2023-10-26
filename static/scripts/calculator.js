@@ -45,6 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ['all', '2P'],
       error: false
     },
+    {
+      name: "PUBG Mobile (Official)",
+      link: "https://nowgg.nl/play/proxima-beta/2609/pubg-mobile-resistance",
+      image: "/images/icons/IMG_0052.png",
+      categories: ['all', '2P'],
+      error: false
+    },
     
     {
       name: "Gladihoppers",
